@@ -103,11 +103,8 @@ The DES key schedule generates **16 round keys** (48 bits each) from the origina
   
 
 | Round | Shifts |
-
 | ----------- | ------ |
-
 | 1, 2, 9, 16 | 1 bit |
-
 | All others | 2 bits |
 
   
