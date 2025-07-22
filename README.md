@@ -4,15 +4,7 @@
 
 This README provides an overview of the **Data Encryption Standard (DES)** algorithm, its key schedule and encryption rounds.
 
-  
 
----
-
-  
-
-## Table of Contents
-
-  
 
 1. [Introduction](#introduction)
 
@@ -22,11 +14,11 @@ This README provides an overview of the **Data Encryption Standard (DES)** algor
 
   
 
-    * [PC-1 Permutation](#pc-1-permuted-choice-1)
+    * [PC-1 Permutation](#pc-1-permutation)
 
     * [C/D Shifts](#cd-shifts)
 
-    * [PC-2 Permutation](#pc-2-permuted-choice-2)
+    * [PC-2 Permutation](#pc-2-permutation)
 
 4. [Encryption Rounds (Feistel Network)](#encryption-rounds-feistel-network)
 
@@ -86,7 +78,7 @@ The DES key schedule generates **16 round keys** (48 bits each) from the origina
 <img src="images/DES-key-schedule.png" alt="DES-key-schedule.png" width="200"/>
   
 
-### PC-1  Permutation
+### PC-1 Permutation
 
   
 
@@ -122,7 +114,7 @@ The DES key schedule generates **16 round keys** (48 bits each) from the origina
 
   
 
-### PC-2  Permutation
+### PC-2 Permutation
 
   
 
@@ -181,6 +173,10 @@ Each round applies the following steps:
 * FIPS PUB 46-3: Data Encryption Standard
 
 * Schneier, B. (1996). *Applied Cryptography*
+
+* [Data Encryption Standard (DES): Encryption by Christof Paar](https://www.youtube.com/watch?v=kPBJIhpcZgE)
+
+* [Data Encryption Standard (DES): Key Schedule and Decryption by Christof Paar](https://www.youtube.com/watch?v=l-7YW06BFNs)
 
   
 
