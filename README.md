@@ -75,7 +75,7 @@ At a high level, DES encryption consists of:
   
 
 The DES key schedule generates **16 round keys** (48 bits each) from the original 64-bit key.
-<img src="images/DES-key-schedule.png" alt="DES-key-schedule.png" width="200"/>
+<img src="images/DES-key-schedule.png" alt="DES-key-schedule.png" width="400"/>
   
 
 ### PC-1 Permutation
@@ -88,7 +88,7 @@ The DES key schedule generates **16 round keys** (48 bits each) from the origina
 
   
 
-<img src="images/PC1.png" alt="PC 1" width="200"/>
+<img src="images/PC1.png" alt="PC 1" width="400"/>
 
   
 
@@ -123,7 +123,7 @@ The DES key schedule generates **16 round keys** (48 bits each) from the origina
 
   
 
-<img src="images/PC2.png" alt="PC 2" width="200"/>
+<img src="images/PC2.png" alt="PC 2" width="400"/>
 
   
 
@@ -155,7 +155,7 @@ Each round applies the following steps:
 
   
 
-<img src="images/DES.png" alt="DES" width="200"/>
+<img src="images/DES.png" alt="DES" width="400"/>
 
   
 
